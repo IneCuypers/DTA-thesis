@@ -14,5 +14,16 @@
 - conda env create -f environment.yml
 - conda activate your_environment_name
 
+# Data Annotation
+
+The sentiment and emotion annotations were generated using a local LLM (`gpt-oss:20b`) via Ollama. 
+
+## How to reproduce annotations:
+1. Ensure you have [Ollama](https://ollama.com/) installed and running locally.
+2. Pull the required model:
+   ```bash
+   ollama pull gpt-oss:20b
+
+python code/twitch_annotator_{sentiment/eemotion}_final.py
 
 # raw chat data collected with: https://github.com/BoringBoredom/Twitch-Chat-Downloader
