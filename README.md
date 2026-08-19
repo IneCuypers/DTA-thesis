@@ -15,4 +15,4 @@
 - conda activate your_environment_name
 
 
-# raw chat data collected wtith: https://github.com/BoringBoredom/Twitch-Chat-Downloader
+# raw chat data collected with: https://github.com/BoringBoredom/Twitch-Chat-Downloader
